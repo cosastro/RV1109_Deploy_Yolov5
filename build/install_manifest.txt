@@ -1,0 +1,6 @@
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/./rknn_yolov5_demo
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/.//model/bus.bmp
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/.//model/rk180x/yolov5s_relu_rk180x_out_opt.rknn
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/.//model/rv1109_rv1126/yolov5s_relu_rv1109_rv1126_out_opt.rknn
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/.//model/coco_80_labels_list.txt
+/home/drx/workshop/rknn_yolov5_opencv_demo/install/rknn_yolov5_demo/lib/librknn_api.so

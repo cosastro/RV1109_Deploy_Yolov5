@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo'
+make: Leaving directory '/home/drx/workshop/rknn_yolov5_opencv_demo'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

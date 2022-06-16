@@ -1,0 +1,431 @@
+The system is: Linux - 5.13.0-46-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cfc4d/fast && /usr/bin/make -f CMakeFiles/cmTC_cfc4d.dir/build.make CMakeFiles/cmTC_cfc4d.dir/build
+make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfc4d.dir/testCCompiler.c.o
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_cfc4d.dir/testCCompiler.c.o   -c /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cfc4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc4d.dir/link.txt --verbose=1
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      CMakeFiles/cmTC_cfc4d.dir/testCCompiler.c.o  -o cmTC_cfc4d 
+make[1]: Leaving directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d2974/fast && /usr/bin/make -f CMakeFiles/cmTC_d2974.dir/build.make CMakeFiles/cmTC_d2974.dir/build
+make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1 -quiet -v -iprefix /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o -version -o /tmp/cccW06AZ.s
+GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"
+ignoring nonexistent directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7f73d02f5a647c367ef9cbd0ddc0248c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o /tmp/cccW06AZ.s
+GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321
+COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+Linking C executable cmTC_d2974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2974.dir/link.txt --verbose=1
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o  -o cmTC_d2974 
+Using built-in specs.
+COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2974'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwljFir.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d2974 /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2974'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d2974/fast && /usr/bin/make -f CMakeFiles/cmTC_d2974.dir/build.make CMakeFiles/cmTC_d2974.dir/build]
+  ignore line: [make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1 -quiet -v -iprefix /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o -version -o /tmp/cccW06AZ.s]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7f73d02f5a647c367ef9cbd0ddc0248c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o /tmp/cccW06AZ.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321]
+  ignore line: [COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o' '-c'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [Linking C executable cmTC_d2974]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2974.dir/link.txt --verbose=1]
+  ignore line: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o  -o cmTC_d2974 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2974'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  link line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwljFir.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d2974 /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwljFir.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d2974] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_d2974.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aad8d/fast && /usr/bin/make -f CMakeFiles/cmTC_aad8d.dir/build.make CMakeFiles/cmTC_aad8d.dir/build
+make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aad8d.dir/testCXXCompiler.cxx.o
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_aad8d.dir/testCXXCompiler.cxx.o -c /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_aad8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aad8d.dir/link.txt --verbose=1
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       CMakeFiles/cmTC_aad8d.dir/testCXXCompiler.cxx.o  -o cmTC_aad8d 
+make[1]: Leaving directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6208/fast && /usr/bin/make -f CMakeFiles/cmTC_e6208.dir/build.make CMakeFiles/cmTC_e6208.dir/build
+make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1plus -quiet -v -iprefix /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmmX89W.s
+GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"
+ignoring nonexistent directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"
+ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)
+	compiled by GNU C version 4.8.1, GMP version 4.3.2, MPFR version 3.1.6, MPC version 0.8.2, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 8a85cb0d2d2ff66df776d19db4ea2416
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmmX89W.s
+GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321
+COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+Linking CXX executable cmTC_e6208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6208.dir/link.txt --verbose=1
+/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e6208 
+Using built-in specs.
+COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+COLLECT_LTO_WRAPPER=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c,c++,fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)'
+Thread model: posix
+gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 
+COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6208' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfDI4Wp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e6208 /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6208' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd'
+make[1]: Leaving directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+    add: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/backward]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include]
+  collapse include dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include/c++/8.3.0/backward;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/include;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e6208/fast && /usr/bin/make -f CMakeFiles/cmTC_e6208.dir/build.make CMakeFiles/cmTC_e6208.dir/build]
+  ignore line: [make[1]: Entering directory '/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/cc1plus -quiet -v -iprefix /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/ -isysroot /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -march=armv7-a+simd -auxbase-strip CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmmX89W.s]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/arm-linux-gnueabihf]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include/c++/8.3.0/backward]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/include-fixed]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) version 8.3.0 (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.8.1  GMP version 4.3.2  MPFR version 3.1.6  MPC version 0.8.2  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 8a85cb0d2d2ff66df776d19db4ea2416]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/as -v -march=armv7-a -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmmX89W.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-linux-gnueabihf) using BFD version (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 2.32.0.20190321]
+  ignore line: [COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  ignore line: [Linking CXX executable cmTC_e6208]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6208.dir/link.txt --verbose=1]
+  ignore line: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e6208 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/src/gcc/configure --target=arm-linux-gnueabihf --prefix= --with-sysroot=/arm-linux-gnueabihf/libc --with-build-sysroot=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/install//arm-linux-gnueabihf/libc --with-bugurl=https://bugs.linaro.org/ --enable-gnu-indirect-function --enable-shared --disable-libssp --disable-libmudflap --enable-checking=release --enable-languages=c c++ fortran --with-gmp=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpfr=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-mpc=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-isl=/tmp/dgboter/bbs/rhev-vm8--rhe6x86_64/buildbot/rhe6x86_64--arm-linux-gnueabihf/build/build-arm-linux-gnueabihf/host-tools --with-arch=armv7-a --with-fpu=neon --with-float=hard --with-arch=armv7-a --with-pkgversion='GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) ]
+  ignore line: [COMPILER_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib/:/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6208' '-shared-libgcc'  '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-march=armv7-a+simd']
+  link line: [ /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2 -plugin /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so -plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfDI4Wp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e6208 /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0 -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib -L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o /home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o]
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfDI4Wp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e6208] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-L/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_e6208.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/crtend.o] ==> ignore
+    arg [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/8.3.0/../../../../arm-linux-gnueabihf/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/8.3.0;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/lib/gcc;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/lib;/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+

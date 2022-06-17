@@ -27,8 +27,8 @@ cmake .. \
     -DCMAKE_C_COMPILER=${GCC_COMPILER}-gcc \
     -DCMAKE_CXX_COMPILER=${GCC_COMPILER}-g++
 make -j4
-make install
-cd -
+# make install
+# cd -
 
-cp run_rk180x.sh install/rknn_yolov5_demo/
-cp run_rv1109_rv1126.sh install/rknn_yolov5_demo/
+# cp run_rk180x.sh install/rknn_yolov5_demo/
+# cp run_rv1109_rv1126.sh install/rknn_yolov5_demo/

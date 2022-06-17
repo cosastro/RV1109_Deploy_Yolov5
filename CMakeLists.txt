@@ -20,6 +20,7 @@ include_directories(${DRM_DIR}/include)
 include_directories(${DRM_DIR}/include/libdrm)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_SOURCE_DIR}/src/objDet)
 
 # rknn api
 set(RKNN_API_PATH ${CMAKE_SOURCE_DIR}/3rdparty/librknn_api)
@@ -36,8 +37,9 @@ find_package(OpenCV REQUIRED)
 set(CMAKE_INSTALL_RPATH "lib")
 
 add_executable(rknn_yolov5_demo
-        src/drm_func.c
-        src/postprocess.cc
+        utils/drm_func.c
+        utils/postprocess.cc
+        src/objDet/objectDet.cpp
         src/main.cc
         )
 
@@ -48,7 +50,7 @@ target_link_libraries(rknn_yolov5_demo
 )
 
 # install target and libraries
-set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install/rknn_yolov5_demo)
-install(TARGETS rknn_yolov5_demo DESTINATION ./)
-install(DIRECTORY model DESTINATION ./)
-install(PROGRAMS ${RKNN_API_LIB} DESTINATION lib)
+# set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/install/rknn_yolov5_demo)
+# install(TARGETS rknn_yolov5_demo DESTINATION ./)
+# install(DIRECTORY model DESTINATION ./)
+# install(PROGRAMS ${RKNN_API_LIB} DESTINATION lib)

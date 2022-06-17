@@ -48,59 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo
+CMAKE_SOURCE_DIR = /home/drx/workshop/rv1109_yolov5_deploy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo/build
+CMAKE_BINARY_DIR = /home/drx/workshop/rv1109_yolov5_deploy/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -126,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -169,33 +123,6 @@ rknn_yolov5_demo/fast:
 	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/build
 .PHONY : rknn_yolov5_demo/fast
 
-src/drm_func.o: src/drm_func.c.o
-
-.PHONY : src/drm_func.o
-
-# target to build an object file
-src/drm_func.c.o:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o
-.PHONY : src/drm_func.c.o
-
-src/drm_func.i: src/drm_func.c.i
-
-.PHONY : src/drm_func.i
-
-# target to preprocess a source file
-src/drm_func.c.i:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.i
-.PHONY : src/drm_func.c.i
-
-src/drm_func.s: src/drm_func.c.s
-
-.PHONY : src/drm_func.s
-
-# target to generate assembly for a file
-src/drm_func.c.s:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.s
-.PHONY : src/drm_func.c.s
-
 src/main.o: src/main.cc.o
 
 .PHONY : src/main.o
@@ -223,32 +150,86 @@ src/main.cc.s:
 	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
-src/postprocess.o: src/postprocess.cc.o
+src/objDet/objectDet.o: src/objDet/objectDet.cpp.o
 
-.PHONY : src/postprocess.o
+.PHONY : src/objDet/objectDet.o
 
 # target to build an object file
-src/postprocess.cc.o:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o
-.PHONY : src/postprocess.cc.o
+src/objDet/objectDet.cpp.o:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o
+.PHONY : src/objDet/objectDet.cpp.o
 
-src/postprocess.i: src/postprocess.cc.i
+src/objDet/objectDet.i: src/objDet/objectDet.cpp.i
 
-.PHONY : src/postprocess.i
+.PHONY : src/objDet/objectDet.i
 
 # target to preprocess a source file
-src/postprocess.cc.i:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.i
-.PHONY : src/postprocess.cc.i
+src/objDet/objectDet.cpp.i:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.i
+.PHONY : src/objDet/objectDet.cpp.i
 
-src/postprocess.s: src/postprocess.cc.s
+src/objDet/objectDet.s: src/objDet/objectDet.cpp.s
 
-.PHONY : src/postprocess.s
+.PHONY : src/objDet/objectDet.s
 
 # target to generate assembly for a file
-src/postprocess.cc.s:
-	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.s
-.PHONY : src/postprocess.cc.s
+src/objDet/objectDet.cpp.s:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.s
+.PHONY : src/objDet/objectDet.cpp.s
+
+utils/drm_func.o: utils/drm_func.c.o
+
+.PHONY : utils/drm_func.o
+
+# target to build an object file
+utils/drm_func.c.o:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o
+.PHONY : utils/drm_func.c.o
+
+utils/drm_func.i: utils/drm_func.c.i
+
+.PHONY : utils/drm_func.i
+
+# target to preprocess a source file
+utils/drm_func.c.i:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.i
+.PHONY : utils/drm_func.c.i
+
+utils/drm_func.s: utils/drm_func.c.s
+
+.PHONY : utils/drm_func.s
+
+# target to generate assembly for a file
+utils/drm_func.c.s:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.s
+.PHONY : utils/drm_func.c.s
+
+utils/postprocess.o: utils/postprocess.cc.o
+
+.PHONY : utils/postprocess.o
+
+# target to build an object file
+utils/postprocess.cc.o:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o
+.PHONY : utils/postprocess.cc.o
+
+utils/postprocess.i: utils/postprocess.cc.i
+
+.PHONY : utils/postprocess.i
+
+# target to preprocess a source file
+utils/postprocess.cc.i:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.i
+.PHONY : utils/postprocess.cc.i
+
+utils/postprocess.s: utils/postprocess.cc.s
+
+.PHONY : utils/postprocess.s
+
+# target to generate assembly for a file
+utils/postprocess.cc.s:
+	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.s
+.PHONY : utils/postprocess.cc.s
 
 # Help Target
 help:
@@ -256,22 +237,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... rknn_yolov5_demo"
-	@echo "... src/drm_func.o"
-	@echo "... src/drm_func.i"
-	@echo "... src/drm_func.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/postprocess.o"
-	@echo "... src/postprocess.i"
-	@echo "... src/postprocess.s"
+	@echo "... src/objDet/objectDet.o"
+	@echo "... src/objDet/objectDet.i"
+	@echo "... src/objDet/objectDet.s"
+	@echo "... utils/drm_func.o"
+	@echo "... utils/drm_func.i"
+	@echo "... utils/drm_func.s"
+	@echo "... utils/postprocess.o"
+	@echo "... utils/postprocess.i"
+	@echo "... utils/postprocess.s"
 .PHONY : help
 
 

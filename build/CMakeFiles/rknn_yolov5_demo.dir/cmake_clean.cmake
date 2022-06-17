@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o"
   "CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o"
-  "CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o"
+  "CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o"
+  "CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o"
+  "CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o"
   "rknn_yolov5_demo"
   "rknn_yolov5_demo.pdb"
 )

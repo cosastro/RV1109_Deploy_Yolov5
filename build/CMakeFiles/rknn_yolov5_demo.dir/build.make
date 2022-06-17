@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo
+CMAKE_SOURCE_DIR = /home/drx/workshop/rv1109_yolov5_deploy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo/build
+CMAKE_BINARY_DIR = /home/drx/workshop/rv1109_yolov5_deploy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rknn_yolov5_demo.dir/depend.make
@@ -57,56 +57,71 @@ include CMakeFiles/rknn_yolov5_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/rknn_yolov5_demo.dir/flags.make
 
-CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
-CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o: ../src/drm_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o   -c /home/drx/workshop/rknn_yolov5_opencv_demo/src/drm_func.c
+CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
+CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o: ../utils/drm_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o   -c /home/drx/workshop/rv1109_yolov5_deploy/utils/drm_func.c
 
-CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.i"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/drx/workshop/rknn_yolov5_opencv_demo/src/drm_func.c > CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.i
+CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.i"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/drx/workshop/rv1109_yolov5_deploy/utils/drm_func.c > CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.i
 
-CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.s"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/drx/workshop/rknn_yolov5_opencv_demo/src/drm_func.c -o CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.s
+CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.s"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/drx/workshop/rv1109_yolov5_deploy/utils/drm_func.c -o CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.s
 
-CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
-CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o: ../src/postprocess.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o -c /home/drx/workshop/rknn_yolov5_opencv_demo/src/postprocess.cc
+CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
+CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o: ../utils/postprocess.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o -c /home/drx/workshop/rv1109_yolov5_deploy/utils/postprocess.cc
 
-CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.i"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drx/workshop/rknn_yolov5_opencv_demo/src/postprocess.cc > CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.i
+CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.i"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drx/workshop/rv1109_yolov5_deploy/utils/postprocess.cc > CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.i
 
-CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.s"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drx/workshop/rknn_yolov5_opencv_demo/src/postprocess.cc -o CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.s
+CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.s"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drx/workshop/rv1109_yolov5_deploy/utils/postprocess.cc -o CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.s
+
+CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
+CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o: ../src/objDet/objectDet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o -c /home/drx/workshop/rv1109_yolov5_deploy/src/objDet/objectDet.cpp
+
+CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.i"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drx/workshop/rv1109_yolov5_deploy/src/objDet/objectDet.cpp > CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.i
+
+CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.s"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drx/workshop/rv1109_yolov5_deploy/src/objDet/objectDet.cpp -o CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.s
 
 CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o: CMakeFiles/rknn_yolov5_demo.dir/flags.make
 CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o -c /home/drx/workshop/rknn_yolov5_opencv_demo/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o"
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o -c /home/drx/workshop/rv1109_yolov5_deploy/src/main.cc
 
 CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.i"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drx/workshop/rknn_yolov5_opencv_demo/src/main.cc > CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.i
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drx/workshop/rv1109_yolov5_deploy/src/main.cc > CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.i
 
 CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.s"
-	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drx/workshop/rknn_yolov5_opencv_demo/src/main.cc -o CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.s
+	/home/drx/workshop/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drx/workshop/rv1109_yolov5_deploy/src/main.cc -o CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.s
 
 # Object files for target rknn_yolov5_demo
 rknn_yolov5_demo_OBJECTS = \
-"CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o" \
-"CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o" \
+"CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o" \
+"CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o" \
+"CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o" \
 "CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o"
 
 # External object files for target rknn_yolov5_demo
 rknn_yolov5_demo_EXTERNAL_OBJECTS =
 
-rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/src/drm_func.c.o
-rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/src/postprocess.cc.o
+rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/utils/drm_func.c.o
+rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/utils/postprocess.cc.o
+rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/src/objDet/objectDet.cpp.o
 rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/src/main.cc.o
 rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/build.make
 rknn_yolov5_demo: ../3rdparty/librknn_api/lib/librknn_api.so
@@ -119,7 +134,7 @@ rknn_yolov5_demo: ../3rdparty/opencv/lib/libopencv_imgcodecs.so.4.5.4
 rknn_yolov5_demo: ../3rdparty/opencv/lib/libopencv_imgproc.so.4.5.4
 rknn_yolov5_demo: ../3rdparty/opencv/lib/libopencv_core.so.4.5.4
 rknn_yolov5_demo: CMakeFiles/rknn_yolov5_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable rknn_yolov5_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable rknn_yolov5_demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rknn_yolov5_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -132,6 +147,6 @@ CMakeFiles/rknn_yolov5_demo.dir/clean:
 .PHONY : CMakeFiles/rknn_yolov5_demo.dir/clean
 
 CMakeFiles/rknn_yolov5_demo.dir/depend:
-	cd /home/drx/workshop/rknn_yolov5_opencv_demo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drx/workshop/rknn_yolov5_opencv_demo /home/drx/workshop/rknn_yolov5_opencv_demo /home/drx/workshop/rknn_yolov5_opencv_demo/build /home/drx/workshop/rknn_yolov5_opencv_demo/build /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles/rknn_yolov5_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/drx/workshop/rv1109_yolov5_deploy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drx/workshop/rv1109_yolov5_deploy /home/drx/workshop/rv1109_yolov5_deploy /home/drx/workshop/rv1109_yolov5_deploy/build /home/drx/workshop/rv1109_yolov5_deploy/build /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles/rknn_yolov5_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rknn_yolov5_demo.dir/depend
 

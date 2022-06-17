@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo
+CMAKE_SOURCE_DIR = /home/drx/workshop/rv1109_yolov5_deploy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drx/workshop/rknn_yolov5_opencv_demo/build
+CMAKE_BINARY_DIR = /home/drx/workshop/rv1109_yolov5_deploy/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/rknn_yolov5_demo.dir/clean
 CMakeFiles/rknn_yolov5_demo.dir/all:
 	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/depend
 	$(MAKE) -f CMakeFiles/rknn_yolov5_demo.dir/build.make CMakeFiles/rknn_yolov5_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles --progress-num=1,2,3,4 "Built target rknn_yolov5_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target rknn_yolov5_demo"
 .PHONY : CMakeFiles/rknn_yolov5_demo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rknn_yolov5_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rknn_yolov5_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rknn_yolov5_opencv_demo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles 0
 .PHONY : CMakeFiles/rknn_yolov5_demo.dir/rule
 
 # Convenience name for target.

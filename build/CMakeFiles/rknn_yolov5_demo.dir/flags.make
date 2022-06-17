@@ -7,11 +7,11 @@ C_FLAGS =  -s -O3
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/drm/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/drm/include/libdrm -I/home/drx/workshop/rknn_yolov5_opencv_demo/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/librknn_api/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/opencv/include -isystem /home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/opencv/include/opencv4 
+C_INCLUDES = -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/drm/include -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/drm/include/libdrm -I/home/drx/workshop/rv1109_yolov5_deploy/include -I/home/drx/workshop/rv1109_yolov5_deploy/src/objDet -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/librknn_api/include -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/opencv/include -isystem /home/drx/workshop/rv1109_yolov5_deploy/3rdparty/opencv/include/opencv4 
 
 CXX_FLAGS =  -std=c++11 -s -O3  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/drm/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/drm/include/libdrm -I/home/drx/workshop/rknn_yolov5_opencv_demo/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/librknn_api/include -I/home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/opencv/include -isystem /home/drx/workshop/rknn_yolov5_opencv_demo/3rdparty/opencv/include/opencv4 
+CXX_INCLUDES = -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/drm/include -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/drm/include/libdrm -I/home/drx/workshop/rv1109_yolov5_deploy/include -I/home/drx/workshop/rv1109_yolov5_deploy/src/objDet -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/librknn_api/include -I/home/drx/workshop/rv1109_yolov5_deploy/3rdparty/opencv/include -isystem /home/drx/workshop/rv1109_yolov5_deploy/3rdparty/opencv/include/opencv4 
 

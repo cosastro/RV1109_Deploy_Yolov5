@@ -1,3 +1,0 @@
-/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles/rebuild_cache.dir
-/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles/edit_cache.dir
-/home/drx/workshop/rv1109_yolov5_deploy/build/CMakeFiles/rknn_yolov5_demo.dir
